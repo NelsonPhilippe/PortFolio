@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@600&display=swap');
+
+
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  #fdebd0;
+}
+
+.container{
+    display: inline-block;
+    width: 100%;
+}
+
+
+header{
+    background-color:  #212f3c;
+    position: fixed;
+    padding: 0;
+    display: flex;
+    width: 60px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    z-index: 1;
+}
+
+header img{
+    width:35px;
+    height:35px;
+    margin-top: 30px;
+}
+
+
+div.home{
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+
+div.home img{
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.home h2, h1{
+    position: absolute;
+
+}
+
+div.home h1{
+    font-size: 45px;
+    font-family: "Oleo Script", "Regular";
+    color:  #FBFCFC  ;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+div.home h2{
+    color:  #FBFCFC ;
+    font-family: 'Eczar', serif;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65vw;
+}
+
+
+div.competence{
+    display: flex;
+    flex-direction: column;
+    font-family: "Oleo Script", "Regular";
+    color: #17202A;
+    padding-bottom: 40px;
+    height: 500px;
+}
+
+div.competence h1{
+    text-align:center;    
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 30px;
+    position: relative;
+    width: 238px;
+    
+}
+
+div#container_c{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+
+div.c_title div{
+    margin-top: 10vw;
+}
+
+div.c_title h3{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 25vw;
+    position: relative;
+    flex-direction: column;
+}
+div#barre{
+    margin-left: 30px;
+    position: relative;
+    background-color: #17202A;
+    height: 300px;
+    width: 8px;
+    margin-top: 5vw;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+div#graph{
+    margin-left: 20px;
+    margin-top: 6vw;
+    width: 40vw;
+    height: 245px;
+}
+
+div#graph div{
+    background-color: #17202A;
+    height:15px;
+    margin-top: 50px;
+    border-radius: 0 10px 10px 0px;
+}
+
+div#java{
+    width: 0%;
+}
+
+div#htmlcss{
+    width: 80%;
+}
+
+div#php{
+    width: 30%;
+}
+
+div#javascript{
+    width: 60%;
+}
+
+div.presentation{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    background-color: #4A235A;
+    color: #FBFCFC;
+
+}
+
+div.presentation h1{
+    font-family: "Oleo Script", "Regular";
+    text-align:center;    
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 40px;
+    position: relative;
+    width: 238px;
+}
+
+div.presentation p{
+    font-size: 13px;
+    font-family: "Eczar", "Regular";
+}
+
+p#p_1{
+    padding-top: 10vh;
+    margin-left: 80px;
+    width: 60vw;
+}
+
+p#p_2{
+    padding-top: 25vh;
+    margin-left: 35vw;
+    width: 60vw;
+}
+
+div.project{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1200px;
+}
+
+div.project h1{
+    font-family: "Oleo Script", "Regular";
+    text-align:center;    
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 40px;
+    position: relative;
+    width: 238px;
+    height: auto;
+    color: #17202A;
+}
+
+div.project div{
+    position: relative;
+    margin-top: 40px;
+}
+
+div.project img{
+    width: 40vw;
+    height: 40vh;
+}
+
+div.project p{
+    text-align: left;
+    width: 40vw;
+    font-family: "Eczar", "Regular";
+    color: #17202A;
+
+
+}
+
+div.project h3{
+    width: 40vw;
+    text-align: center;
+    font-family: "Oleo Script", "Regular";
+    color: #17202A;
+
+}
+
+div#pr_1{
+    width: 40vw;
+    margin-left: 85px;
+}
+
+div#pr_2{
+    width: 40vw;
+    left: 35%
+}
+
+div#pr_3{
+    width: 40vw;
+    left: 55%;
+}
+
+
+
