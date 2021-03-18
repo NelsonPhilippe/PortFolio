@@ -33,6 +33,9 @@
 
                 <div class="home">
 
+                    <label for="contact">Contactez Moi!</label>
+                    <input type="button" id="contact" name="contact">
+
 
                     <img src="images/back_home.jpg" alt="">
 
