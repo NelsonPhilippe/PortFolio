@@ -163,7 +163,7 @@ div#javascript{
 div.presentation{
     display: flex;
     flex-direction: column;
-    height: 700px;
+    height: 80vh;
     background-color: #4A235A;
     color: #FBFCFC;
 
@@ -180,7 +180,7 @@ div.presentation h1{
 }
 
 div.presentation p{
-    font-size: 17px;
+    font-size: 1.5vh;
     font-family: "Eczar", "Regular";
 }
 
@@ -191,7 +191,7 @@ p#p_1{
 }
 
 p#p_2{
-    padding-top: 13vh;
+    padding-top: 20vh;
     margin-left: 50vw;
     width: 45vw;
 }
