@@ -109,7 +109,7 @@ div#container_c{
 
 
 div.c_title div{
-    margin-top: 8.5vw;
+    margin-top: 7.5vw;
 }
 
 div.c_title h3{
@@ -131,6 +131,7 @@ div#barre{
 }
 
 div#graph{
+    padding:0;
     margin-left: 20px;
     margin-top: 6vw;
     width: 40vw;
@@ -139,31 +140,34 @@ div#graph{
 
 div#graph div{
     background-color: #17202A;
-    height:15px;
-    margin-top: 50px;
+    height:20px;
     border-radius: 0 10px 10px 0px;
 }
 
 div#java{
+    margin-top: 3vh;
     width: 0%;
 }
 
 div#htmlcss{
+    margin-top: 7.5vh;
     width: 80%;
 }
 
 div#php{
+    margin-top: 7vh;
     width: 30%;
 }
 
 div#javascript{
+    margin-top: 7vh;
     width: 60%;
 }
 
 div.presentation{
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 700px;
     background-color: #4A235A;
     color: #FBFCFC;
 
@@ -180,7 +184,7 @@ div.presentation h1{
 }
 
 div.presentation p{
-    font-size: 1.5vh;
+    font-size: 90%;
     font-family: "Eczar", "Regular";
 }
 
@@ -191,16 +195,17 @@ p#p_1{
 }
 
 p#p_2{
-    padding-top: 20vh;
+    padding-top: 10vh;
     margin-left: 50vw;
     width: 45vw;
 }
 
 div.project{
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1200px;
+    height: 100%;
 }
 
 div.project h1{
@@ -257,5 +262,57 @@ div#pr_3{
     left: 55%;
 }
 
+div.experience{
+    display: flex;
+    flex-direction: column;
+    background-color: #4A235A;
+    width:100%;
+    height: 100%;
+    color: #FBFCFC;
+}
+
+div.experience h1{
+    font-family: "Oleo Script", "Regular";
+    text-align:center;    
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 40px;
+    position: relative;
+    width: 238px;
+}
+
+div#github{
+    display: flex;
+    flex-direction: row;
+}
+
+div.experience img{
+
+    margin-top: 8px;
+    margin-left: 70px;
+    width: 50px;
+    height: 50px;
+
+}
+
+div.experience h3{
+    
+    font-family: "Oleo Script", "Regular";
+
+}
+
+div.experience a{
+    font-family: "Eczar", "Regular";
+    color: #d2b4de;
+    padding-left: 8px;
+}
 
 
+div.experience p{
+
+    font-family: "Eczar", "Regular";
+    margin-top: 10vh;
+    margin-left: 15vw;
+    padding-bottom: 15vh;
+
+}
